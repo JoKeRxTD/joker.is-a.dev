@@ -4,7 +4,7 @@ My personal site created with [HTML](https://www.w3schools.com/html/) & [Tailwin
 
 ## 📚 Credits
 
-This personal website is heavily inspired/built off of [Audun's Personal Website](https://audun.gg). 
+This personal website is heavily inspired/built off of [Anaxes's Personal Website](https://Anaxes.xyz). 
 
 🔗 Website: [Anaxes.xyz](https://Anaxes.xyz) 
 <br/>
