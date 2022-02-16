@@ -1,5 +1,5 @@
 var url = "https://api.lanyard.rest/v1/users/116730818822537225"; // URL of API
-fetch('https://api.lanyard.rest/v1/users/116730818822537225').then(function (response) {
+fetch(url).then(function (response) {
   if (response.ok) {
     // Check if response went through
     response.json().then(function (data) {
@@ -97,8 +97,8 @@ fetch(url).then(function (response) {
   if (response.ok) {
     // Check if response went through
     response.json().then(function (data) {
-      // var timestamp = moment(data.data.activities[1].timestamps.start);
-      // console.log(timestamp);
+      var timestamp = moment(data.data.activities[1].timestamps.start);
+      console.log(timestamp);
       var activity = document.getElementById("activities_joker");
       var card = `${`<div class="
 			text-center
@@ -112,7 +112,7 @@ fetch(url).then(function (response) {
 			">
 			Activity
 		  </div><div class="row items-center justify-center mb-8"><div class="glass text-white px-6 sm:px-4 col mb-8 w-full md:w-1/2 lg:w-1/3"  >
-			<div class="flex items-center px-6 py-4 transform hover:scale-105 duration-200 shadow rounded-md px-6 sm:px-4 hover:bg-gray-100 cursor-pointer opacity" style="background-color: #0e141d; border-radius: 1vw; ${
+			<div class="flex items-center py-4 transform hover:scale-105 duration-200 shadow rounded-md px-6 sm:px-4 hover:bg-gray-100 cursor-pointer opacity" style="background-color: #0e141d; border-radius: 1vw; ${
         data.data.spotify && data.data.activities[1].name === "Spotify"
           ? `background-image: url(${data.data.spotify.album_art_url}); background-position: center; `
           : ""
@@ -137,21 +137,9 @@ fetch(url).then(function (response) {
             : ""
         }
 				<p class="ml-4 text-sm flex flex-col justify-between leading-snug">
-					<span class="font-bold">${
-            data.data.listening_to_spotify &&
-            data.data.activities[1].name === "Spotify"
-              ? "Listening&nbsp;to&nbsp;<i class='fab fa-spotify text-green-500'></i>"
-              : `${data.data.activities[1].name === "Code"
-                    ? "Playing&nbsp;<i class='fad fa-code text-blue-500'></i>"
-              : `${data.data.activities[1].name === "GitHub"
-                    ? "Playing&nbsp<i class='fab fa-github'></i>"
-              : "Playing"
-                      }`
-                }`
-          }&nbsp;${data.data.activities[1].name}</span>
 					<span class="opacity-75">${
             data.data.listening_to_spotify &&
-            data.data.activities[1].name === "Spotify"
+            data.data.activities[1].name === "Code"
               ? `🎶 ${data.data.activities[1].details
                   .split("", 35)
                   .reduce(
