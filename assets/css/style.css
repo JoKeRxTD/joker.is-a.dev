@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap'); */
 
+
 * {
   font-family: 'Nunito', sans-serif;
   /* font-family: 'Akaya Telivigala', cursive; */
 }
-/* body {
-  font-family: 'Nunito', sans-serif;
-} */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -104,25 +102,11 @@ img {
     transform: rotate(0deg);
   }
 }
-.rainbow-text:hover {
-  background-image: linear-gradient(
-    to left,
-    violet,
-    indigo,
-    blue,
-    green,
-    yellow,
-    orange,
-    red
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 #get-in-touch{
   width:90%;
   height:100px;
-  background-color: #15181d;
+  background-color: #121c2b;
   display: flex;
   margin: 60px auto;
   padding: 20px 40px;
@@ -134,17 +118,17 @@ img {
   background-repeat: no-repeat;
 }
 #get-in-touch span{
-  color: #e4e4e4;
+  color: #fafafa;
   font-size: 1.3rem;
   font-weight: 600;
 }
 #get-in-touch a{
-  color: #ffffff;
+  color: #fafafa;
   width:160px;
   height: 50px;
   display: flex;
   justify-content: center;
   border-radius: 15px;
   align-items: center;
-  background: linear-gradient(90deg,#2788e2 20%,#3b4eb8);
+  background: linear-gradient(90deg,#0e141d 20%,#0a0f16);
 }

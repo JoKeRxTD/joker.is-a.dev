@@ -6,24 +6,13 @@
     <link rel="icon" type="image/png" href="assets/images/jokerthing.gif" />
 
     <!--TailwindCSS , Font Awesome & Twitter Emojis-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@^1.0/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://rawgit.com/ellekasai/twemoji-awesome/gh-pages/twemoji-awesome.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-VhBcF/php0Z/P5ZxlxaEx1GwqTQVIBu4G4giRWxTKOCjTxsPFETUDdVL5B6vYvOt"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link href="https://rawgit.com/ellekasai/twemoji-awesome/gh-pages/twemoji-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-VhBcF/php0Z/P5ZxlxaEx1GwqTQVIBu4G4giRWxTKOCjTxsPFETUDdVL5B6vYvOt" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="manifest" href="anaxes.webmanifest">
+    <link rel="apple-touch-icon" href="assets/images/AnaxesLogo192-AppleTouch.png">
     <!-- <script async src="https://arc.io/widget.min.js#LoGVav8q"></script> -->
 
     <!--META-->
@@ -88,30 +77,78 @@
       content="#0A0F16;"
     />
 
-    <!--CSS + JS-->
-    <script src="assets/JS/lanyard.js" type="text/javascript"></script>
-    <script src="assets/JS/github.js" type="text/javascript"></script>
-    <script src="assets/JS/twitter.js" type="text/javascript"></script>
-    <script src="assets/JS/mythbot.js" type="text/javascript"></script>
-    <script src="assets/JS/main.js" type="text/javascript"></script>
-    <script src="assets/JS/support.js" type="text/javascript"></script>
-    <script src="assets/JS/img.js" type="text/javascript"></script>
+    <!--CSS + js-->
+    <script src="assets/js/lanyard.js" type="text/javascript"></script>
+    <script src="assets/js/github.js" type="text/javascript"></script>
+    <script src="assets/js/twitter.js" type="text/javascript"></script>
+    <script src="assets/js/mythbot.js" type="text/javascript"></script>
+    <script src="assets/js/main.js" type="text/javascript"></script>
+    <script src="assets/js/support.js" type="text/javascript"></script>
+    <script src="https://cdn.tailwindcss.com/" type="text/javascript"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body style="background-color: #0a0f16">
-    <div class="px-6 md:px-4 py-4" style="background-color: #0e141d">
-      <div class="max-w-6xl mx-auto container text-white">
-        <div class="flex">
-          <div class="flex-initial">
-            <i class="twa twa-laptop-computer font-bold mr-4"></i>
+    <nav class="bg-gray-800">
+      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <div class="relative flex items-center justify-between h-16">
+          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <!-- Mobile menu button-->
+            <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+              <span class="sr-only">Open</span>
+              <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+              <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
           </div>
-          &nbsp;
-          <div class="flex-1">
-            <a href="https://github.com/JoKeRxTD/joker.is-a.dev" target="_blank">This website is open source. <i class="fab fa-github github"></i></a>
+          <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+            <div class="flex-shrink-0 flex items-center">
+              <!-- <img class="block lg:hidden h-8 w-auto" src="https://cdn.mythbot.org/img/dev_ryu9wzli.gif" alt="Workflow"> -->
+              <img class="hidden lg:block h-8 w-auto rounded-full" src="https://cdn.mythbot.org/img/dev_ryu9wzli.gif" alt="Workflow">
+            </div>
+            <div class="hidden sm:block sm:ml-6">
+              <div class="flex space-x-4">
+                <a href="/" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</a>
+    
+                <a href="https://discord.com/users/116730818822537225" target="_blank" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Discord</a>
+    
+                <a href="https://github.com/JoKeRxTD" target="_blank" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Github</a>
+    
+                <a href="https://www.buymeacoffee.com/volticdevs" target="_blank"class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Buy me a Coffee</a>
+              </div>
+            </div>
+          </div>
+          <div class="absolute inset-y-0 right-0 flex items-center pr-1 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <div class="flex bg-gray-900 px-1 py-1 rounded-full ">
+            <button type="button" class=" flex p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+              <!-- <ul>Theme</ul> -->
+            </button>
+          </div>
+          </div>
           </div>
         </div>
       </div>
-    </div>
+    
+      <!-- Mobile menu, show/hide based on menu state. -->
+      <div class="sm:hidden" id="mobile-menu">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+          <a href="/" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
+    
+          <a href="https://discord.com/users/116730818822537225" target="_blank" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Discord</a>
+    
+          <a href="https://github.com/JoKeRxTD" target="_blank" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Github</a>
+    
+          <a href="https://www.buymeacoffee.com/volticdevs" target="_blank" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Buy me a Coffee</a>
+        </div>
+      </div>
+    </nav>
     <div
       onclick="window.showHelp()"
       id="click_it"
@@ -257,11 +294,11 @@
                 bg-clip-text
                 text-transparent
                 bg-gradient-to-r
-                from-blue-500
-                to-green-400
-                hover:from-pink-500 hover:to-purple-400
+                from-blue-800
+                to-blue-400
+                hover:from-blue-400 hover:to-blue-800
               "
-              >JoKeR</span
+              >Tom (JoKeR#0001)</span
             >&nbsp;<span id="discord_status"></span>
           </div>
           <div class="font-semibold text-lg text-gray-500">
@@ -277,9 +314,9 @@
               text-lg text-gray-600
               mt-12
             "
-          >
+          >	
             Hey <span class="wave"><i class="twa twa-wave"></i></span>, I am
-            JoKeR <i style="color: #c2a609;" class="fas fa-grin-beam-sweat"></i>. 29 y/o Inspired Developer/Software Engineer
+            Tom (JoKeR#0001) <i style="color: #c2a609;" class="fas fa-grin-beam-sweat"></i>. 29 y/o Inspired Developer/Software Engineer
             <i style="color: #7289DA;" class="fas fa-code"></i>, Verified Discord Bot
             Developer <i class="twa twa-robot-face"></i>, and Web Developer
             <i class="twa twa-globe-with-meridians"></i><br /><br />
@@ -344,25 +381,9 @@
             draggable="false"
             style="border-radius: 2.5vw"
           />
-          <img
-            src="assets/images/jokerthing.gif"
-            class="
-              flex
-              lg:hidden
-              mt-12
-              lg:mt-0
-              rounded-lg
-              sm:w-1/1
-              md:w-4/5
-              lg:w-3/5
-              mx-auto
-            "
-            alt="My_Logo"
-            draggable="false"
-            style="border-radius: 2.5vw"
-          />
         </div>
       </div>
+      <span id="repos"></span>
       <!--Start of personal projects-->
       <span id="activities_joker"></span>
       <div
@@ -990,7 +1011,7 @@
                 </div>
               </div>
             </div>
-            <!--Node.JS-->
+            <!--Node.js-->
             <div class="px-6 sm:px-4 col mb-8 w-full md:w-1/2 lg:w-1/4">
               <div
                 class="
@@ -1296,6 +1317,66 @@
                   </div>
                 </div>
               </div>
+            </div> 
+             <!--VueJS-->
+        <div class="px-6 sm:px-4 col mb-8 w-full md:w-1/2 lg:w-1/4">
+          <div class="flex items-center px-6 py-4 transform hover:scale-105 duration-200 shadow rounded-md px-6 sm:px-4 hover:bg-gray-100 cursor-pointer" style="background-color: #0e141d; border-radius: 1vw;">
+            <div class="flex items-center">
+              <div class="flex-initial ml-4 mr-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-8 w-auto">
+                  <path d="M256 144.03l-55.49-96.11h-79.43L256 281.61 390.92 47.92h-79.43L256 144.03z" fill="#35495E"></path>
+                  <path d="M409.4 47.92L256 313.61 102.6 47.92H15.74L256 464.08 496.26 47.92H409.4z" fill="#41B883"></path>
+                </svg>
+              </div>
+              <div class="flex-initial">
+                <div class="font-bold text-lg text-white">VueJS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+                <!--TypeScript-->
+                <div class="px-6 sm:px-4 col mb-8 w-full md:w-1/2 lg:w-1/4">
+                  <div class="flex items-center px-6 py-4 transform hover:scale-105 duration-200 shadow rounded-md px-6 sm:px-4 hover:bg-gray-100 cursor-pointer" style="background-color: #0e141d; border-radius: 1vw;">
+                    <div class="flex items-center">
+                      <div class="flex-initial ml-4 mr-6">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 h-8 w-auto rounded-md">
+                          <path d="M0 0h24v24H0V0z" fill="#fff"></path>
+                          <path
+                            d="M0 12v12h24V0H0v12zm19.34-.956c.61.152 1.075.423 1.502.865.221.236.549.667.575.77.008.03-1.036.73-1.669 1.123-.022.015-.114-.083-.217-.236-.309-.45-.632-.644-1.128-.678-.727-.05-1.2.332-1.192.967a.88.88 0 00.103.45c.16.332.457.53 1.39.934 1.718.739 2.453 1.226 2.91 1.92.51.773.625 2.008.278 2.926-.38.998-1.325 1.676-2.655 1.9-.411.073-1.386.062-1.828-.018-.964-.171-1.878-.647-2.442-1.272-.221-.244-.651-.88-.625-.926.011-.015.11-.076.221-.141l.892-.514.69-.4.145.213c.201.31.643.732.91.873.766.404 1.817.346 2.335-.118.221-.202.312-.412.312-.72 0-.279-.033-.4-.178-.61-.187-.266-.568-.49-1.65-.96-1.239-.533-1.772-.864-2.26-1.39a3.167 3.167 0 01-.659-1.2c-.091-.34-.114-1.189-.042-1.531.255-1.2 1.158-2.031 2.462-2.279.422-.08 1.406-.05 1.82.054v-.002zm-5.633 1.001l.007.983H10.59v8.876H8.381v-8.876H5.257v-.964l.027-.99c.01-.015 1.912-.022 4.217-.019l4.194.012.012.978z"
+                            fill="#007ACC"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="flex-initial">
+                        <div class="font-bold text-lg text-white">TypeScript</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <div class="px-6 sm:px-4 col mb-8 w-full md:w-1/2 lg:w-1/4">
+              <div class="flex items-center px-6 py-4 transform hover:scale-105 duration-200 shadow rounded-md px-6 sm:px-4 hover:bg-gray-100 cursor-pointer" style="background-color: #0e141d; border-radius: 1vw;">
+                <div class="flex items-center">
+                  <div class="flex-initial ml-4 mr-6">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 h-8 w-auto">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M6.333 9.933C7.088 6.911 8.978 5.4 12 5.4c4.533 0 5.1 3.4 7.367 3.967 1.511.377 2.833-.189 3.966-1.7-.755 3.022-2.644 4.533-5.666 4.533-4.534 0-5.1-3.4-7.367-3.967-1.511-.378-2.833.189-3.967 1.7zm-5.666 6.8C1.422 13.711 3.31 12.2 6.333 12.2c4.534 0 5.1 3.4 7.367 3.967 1.51.377 2.833-.19 3.967-1.7C16.91 17.489 15.022 19 12 19c-4.533 0-5.1-3.4-7.367-3.967-1.511-.378-2.833.189-3.966 1.7z"
+                        fill="url(#prefix__paint0_linear)"
+                      ></path>
+                      <defs>
+                        <linearGradient id="prefix__paint0_linear" x1=".667" y1="-6.689" x2="23.333" y2="31.089" gradientUnits="userSpaceOnUse">
+                          <stop stop-color="#2383AE"></stop>
+                          <stop offset="1" stop-color="#6DD7B9"></stop>
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="flex-initial">
+                    <div class="font-bold text-lg text-white">TailwindCSS</div>
+                  </div>
+                </div>
+              </div>
             </div>
             <!--CSS3-->
             <div class="px-6 sm:px-4 col mb-8 w-full md:w-1/2 lg:w-1/4">
@@ -1373,6 +1454,32 @@
                 </div>
               </div>
             </div>
+                    <!--NuxtJS-->
+        <div class="px-6 sm:px-4 col mb-8 w-full md:w-1/2 lg:w-1/4">
+          <div class="flex items-center px-6 py-4 transform hover:scale-105 duration-200 shadow rounded-md px-6 sm:px-4 hover:bg-gray-100 cursor-pointer" style="background-color: #0e141d; border-radius: 1vw;">
+            <div class="flex items-center">
+              <div class="flex-initial ml-4 mr-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" class="h-8 w-auto">
+                  <path
+                    d="M224.093 141.297l-11.838 20.842-40.483-71.297L47.494 309.683h84.144c0 11.511 9.178 20.842 20.498 20.842H47.494c-7.322 0-14.088-3.975-17.749-10.423a21.145 21.145 0 01.001-20.84l124.278-218.84C157.685 73.971 164.453 70 171.776 70c7.324 0 14.091 3.973 17.752 10.421l34.565 60.876z"
+                    fill="#00C58E"
+                  ></path>
+                  <path
+                    d="M314.164 299.4l-77.876-137.123-11.837-20.842-11.838 20.842L134.746 299.4a21.147 21.147 0 00-.001 20.84c3.661 6.448 10.427 10.422 17.749 10.422H296.39c7.324 0 14.093-3.97 17.755-10.419a21.14 21.14 0 00.001-20.843h.018zm-161.67 10.421l71.957-126.702 71.939 126.702H152.494z"
+                    fill="#2D3748"
+                  ></path>
+                  <path
+                    d="M369.484 320.104c-3.661 6.447-10.426 10.421-17.748 10.421h-55.704c11.321 0 20.498-9.331 20.498-20.842h35.163l-99.774-175.706-15.988 28.162-11.838-20.841 10.078-17.742c3.662-6.449 10.429-10.422 17.752-10.422 7.324 0 14.091 3.973 17.752 10.422l99.809 175.706a21.148 21.148 0 010 20.842z"
+                    fill="#108775"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex-initial">
+                <div class="font-bold text-lg text-white">NuxtJS</div>
+              </div>
+            </div>
+          </div>
+        </div>
             <!--Windows-->
             <div class="px-6 sm:px-4 col mb-8 w-full md:w-1/2 lg:w-1/4">
               <div
@@ -1618,9 +1725,10 @@
                   </div>
                 </div>
               </a>
+              
             </div>
             <section id="get-in-touch" data-aos="fade-up">
-              <span>Have a question for me or just a general inquiry Contact me!</span>
+            <span>Have a question for me or just a general inquiry, Please get in touch!</span>
               <a href="mailto:JoKeR@mythbot.org" target="_blank">Contact Me</a>
             </section>
             <!--Social Icons below Contact me via-->
