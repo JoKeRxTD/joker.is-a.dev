@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap'); */
 
 * {
   font-family: 'Nunito', sans-serif;
+  /* font-family: 'Akaya Telivigala', cursive; */
 }
 /* body {
   font-family: 'Nunito', sans-serif;
@@ -142,6 +144,7 @@ img {
   height: 50px;
   display: flex;
   justify-content: center;
+  border-radius: 15px;
   align-items: center;
   background: linear-gradient(90deg,#2788e2 20%,#3b4eb8);
 }
