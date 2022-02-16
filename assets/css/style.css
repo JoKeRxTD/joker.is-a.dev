@@ -1,6 +1,11 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
   font-family: 'Nunito', sans-serif;
 }
+/* body {
+  font-family: 'Nunito', sans-serif;
+} */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -37,23 +42,8 @@ body {
 .discord2:hover {
   color: #5865f2;
 }
-.dscjobs:hover {
-  color: #3e4a75;
-}
-.naruto:hover {
-  color: #ffec91;
-}
-.attack_on_titan:hover {
-  color: #d8a06d;
-}
 .valorant:hover {
   color: #ff4655;
-}
-.bf2:hover {
-  color: #1b3264;
-}
-.ttf2:hover {
-  color: #597c82;
 }
 .socialbtn:hover {
   transform: translate(0px, -3px);
@@ -125,4 +115,33 @@ img {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#get-in-touch{
+  width:90%;
+  height:100px;
+  background-color: #15181d;
+  display: flex;
+  margin: 60px auto;
+  padding: 20px 40px;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../images/bg-2.png);
+  background-position: top right;
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+#get-in-touch span{
+  color: #e4e4e4;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+#get-in-touch a{
+  color: #ffffff;
+  width:160px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg,#2788e2 20%,#3b4eb8);
 }

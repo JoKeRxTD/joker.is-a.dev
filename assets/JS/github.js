@@ -15,7 +15,7 @@ fetch(url).then(function (response) {
 const repos = document.getElementById("repos");
 
 async function getRepo(user) {
-    const result = await fetch(`https://api.github.com/users/jokerxtd/repos`);
+    const result = await fetch(`https://api.github.com/users/jokerxtd/repos/`);
     let repos = await result.json();
 
     repos = filterRepos(repos);

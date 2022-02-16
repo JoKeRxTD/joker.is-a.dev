@@ -10,3 +10,5 @@ fetch("https://api.mythbot.org/api/twitter.php").then(function (response) {
     console.log("Response failed?");
   }
 });
+
+
