@@ -8,7 +8,7 @@ fetch(url).then(function (response) {
         serverCountHTML.innerHTML += servers;
     });
   } else {
-    console.log("Response failed?");
+    console.log("Response failed?"); 
   }
 });
 
