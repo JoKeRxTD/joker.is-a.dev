@@ -1,0 +1,37 @@
+@tailwind base;
+
+/** purgecss start ignore */
+
+:root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #edf0f7;
+    --bg-default: #f8f9fd;
+    --bg-inverse: #212b46;
+  
+    --text-primary: #444442;
+    --text-secondary: #525661;
+    --text-default: #444442;
+    --text-default-soft: #525661;
+    --text-inverse: #ffffff;
+    --text-inverse-soft: #edf0f7;
+  }
+  
+  .theme-dark {
+    --bg-primary: #212b46;
+    --bg-secondary: #151a30;
+    --bg-default: #1b2139;
+    --bg-inverse: #ffffff;
+  
+    --text-primary: #fff;
+    --text-secondary: #edf0f7;
+    --text-default: #ffffff;
+    --text-default-soft: #edf0f7;
+    --text-inverse: #212b46;
+    --text-inverse-soft: #1b2139;
+  }
+  
+  /** purgecss end ignore */
+  
+@tailwind components;
+
+@tailwind utilities;

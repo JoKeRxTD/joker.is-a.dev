@@ -79,6 +79,8 @@
     <link rel="stylesheet" href="assets/css/animated.min.css" />
     <link rel="stylesheet" href="assets/css/css2.css" integrity="sha384-VhBcF/php0Z/P5ZxlxaEx1GwqTQVIBu4G4giRWxTKOCjTxsPFETUDdVL5B6vYvOt" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/tailwind.min.css" />
+    <link rel="stylesheet" href="assets/css/tailwind.css" />
+    <link rel="stylesheet" href="assets/css/input.css" />
     <link rel="stylesheet" href="assets/css/twemoji-awesome.css" />
   </head>
   <div class="firefly"></div>
@@ -104,7 +106,7 @@
 <div class="firefly"></div>
 <div class="firefly"></div>
 <div class="firefly"></div>
-  <body style="background-color: #0a0f16">
+  <body class="bg-inverse" style="background-color: #0a0f16">
     <nav class="bg-[#121c2b] sticky top-0 z-50"> 
       <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-between h-16">
@@ -132,18 +134,20 @@
                 <a href="https://discord.com/users/116730818822537225" target="_blank" class="text-gray-300 hover:bg-[#0a0f16] hover:text-white px-3 py-2 rounded-md text-sm font-bold"><i class="fab fa-discord"></i> Discord</a>
     
                 <a href="https://github.com/JoKeRxTD" target="_blank" class="text-gray-300 hover:bg-[#0a0f16] hover:text-white px-3 py-2 rounded-md text-sm font-bold"><i class="fab fa-github"></i> Github</a>
+
+                <a href="https://discord.gg/Q6ZSW63Fpw" target="_blank" class="text-gray-300 hover:bg-[#0a0f16] hover:text-white px-3 py-2 rounded-md text-sm font-bold"><i class="fa-solid fa-server"></i> Support Server</a>
     
-                <a href="https://www.buymeacoffee.com/vd_joker" target="_blank"class="text-gray-300 hover:bg-[#0a0f16] hover:text-white px-3 py-2 rounded-md text-sm font-bold"><i class="fas fa-mug-hot"></i> Buy me a Coffee</a>
+                <a href="https://paypal.me/VisionG?country.x=GB&locale.x=en_GB" target="_blank"class="text-gray-300 hover:bg-[#0a0f16] hover:text-white px-3 py-2 rounded-md text-sm font-bold"><i class="fa-solid fa-hand-holding-dollar"></i> Support</a>
               </div>
             </div>
           </div>
           <div class="absolute inset-y-0 right-0 flex items-center pr-1 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
           <div class="flex bg-gray-900 px-1 py-1 rounded-full ">
-            <button type="button" class=" flex p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+            <button type="button" id="theme-btn" class=" flex p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
               </svg>
-              <!-- <ul>Theme</ul> -->
+              <i>Toggle</i>
             </button>
           </div>
           </div>
@@ -161,7 +165,9 @@
     
           <a href="https://github.com/JoKeRxTD" target="_blank" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Github</a>
     
-          <a href="https://www.buymeacoffee.com/vd_joker" target="_blank" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Buy me a Coffee</a>
+          <a href="https://discord.gg/Q6ZSW63Fpw" target="_blank" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Support Server</a>
+
+          <a href="https://paypal.me/VisionG?country.x=GB&locale.x=en_GB" target="_blank" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Support</a>
         </div>
       </div>
     </nav>
@@ -665,11 +671,11 @@
                       ><i class="fab fa-discord discord"></i
                     ></a>
                   </div>
-                  <div class="font-bold text-m text-purple-500">Amazing Community</div>
-                  <div class="font-bold text-m text-purple-500">Active Staff</div>
-                  <!-- <div class="font-regular text-xs text-gray-300">
-                    Launched 13th May 2016
-                  </div> -->
+                  <div class="font-bold text-m text-blue-500">Moderator</div>
+                  <div class="font-bold text-m text-blue-500">FiveM Roleplay</div>
+                  <div class="font-regular text-xs text-gray-300">
+                    Hired 15th March 2022
+                  </div>
                 </div>
               </div>
             </div>
@@ -725,11 +731,11 @@
                       ><i class="fab fa-discord discord"></i
                     ></a>
                   </div>
-                  <div class="font-bold text-m text-blue-500">Amazing Staff!</div>
-                  <div class="font-bold text-m text-blue-500">Friendly Community!</div>
-                  <!-- <div class="font-regular text-xs text-gray-300">
-                    Launched 13th May 2015
-                  </div> -->
+                  <div class="font-bold text-m text-blue-500">Chat Moderator</div>
+                  <div class="font-bold text-m text-blue-500">Rust Survival</div>
+                  <div class="font-regular text-xs text-gray-300">
+                    Hired 11th December 2021
+                  </div>
                 </div>
               </div>
             </div>
@@ -780,9 +786,9 @@
                   </div>
                   <div class="font-bold text-m text-orange-500">Loyal staff member!</div>
                   <div class="font-bold text-m text-orange-500">Lot's of experience!</div>
-                  <!-- <div class="font-regular text-xs text-gray-300">
-                    Launched 2nd November 2020
-                  </div> -->
+                  <div class="font-regular text-xs text-gray-300">
+                    Looking to be hired, Contact Me!
+                  </div>
                 </div>
               </div>
             </div>
@@ -1791,7 +1797,15 @@
                 >&nbsp;2020 -
                 <script>
                   document.write(new Date().getFullYear());
-                </script>.
+                </script>
+                <script>
+                  const btn = document.querySelector('button.mobile-menu-button');
+                  const menu = document.querySelector('.mobile-menu');
+          
+                  btn.addEventListener('click', () => {
+                      menu.classList.toggle("hidden");
+                  })
+              </script>
                 <script defer src="https://momentjs.com/downloads/moment.min.js" type="text/javascript"></script>
               </p>
               <br />
