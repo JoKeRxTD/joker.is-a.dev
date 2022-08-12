@@ -74,6 +74,7 @@ const LandingButton = ({ name, link, selected }: { name: string; link: string; s
             <ThemeToggle />
             <LandingButton name="Home" link="/" selected={router.pathname === "/"} />
             <LandingButton name="Contact" link="/contact" selected={router.pathname === "/contact"} />
+            <LandingButton name="Discord" link="/discord" selected={router.pathname === "/discord"} />
           </div>
 
           <div className="flex flex-row items-center justify-center gap-2 xs:gap-4">
@@ -85,7 +86,9 @@ const LandingButton = ({ name, link, selected }: { name: string; link: string; s
               href={"https://twitter.com/jokerxhd"}
               icon={<SiTwitter className="w-6 h-6 cursor-pointer" />}
             />
-            <LinkButton href={"mailto:joker@mythbot.org"} icon={<FiMail className="w-6 h-6 cursor-pointer" />} />
+            <LinkButton href={"mailto:joker@mythbot.org"} 
+            icon={<FiMail className="w-6 h-6 cursor-pointer" />} 
+            />
           </div>
         </motion.div>
 

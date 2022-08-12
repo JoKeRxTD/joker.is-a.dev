@@ -34,7 +34,7 @@ const MessageComponent = () => {
     <div className="md:col-span-2 row-span-3 bg-opacity-50 bg-white dark:bg-white/5 rounded-md p-4 border border-zinc-800/50">
       <h1 className="font-bold text-sm dark:text-slate-500 mb-1">NAME / DISCORD</h1>
       <input
-        placeholder="John Doe"
+        placeholder="John Doe / JoKeR#0001"
         type="text"
         onChange={(e: any) => (name.current = e.target.value)}
         className="w-full p-2 mb-4 rounded-md bg-slate-300/50 dark:bg-slate-200/5 text-sm placeholder:text-gray-600 dark:placeholder:text-slate-200/20"
@@ -50,7 +50,7 @@ const MessageComponent = () => {
 
       <h1 className="font-bold text-sm dark:text-slate-500 mb-1">MESSAGE</h1>
       <textarea
-        placeholder="Hi Tom, what's up?"
+        placeholder="Hi Tom/JoKeR, what's up?"
         onChange={(e: any) => (message.current = e.target.value)}
         className="w-full p-2 h-36 mb-4 rounded-md bg-slate-300/50 dark:bg-slate-200/5 text-sm placeholder:text-gray-600 dark:placeholder:text-slate-200/20"
       />
