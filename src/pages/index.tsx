@@ -31,7 +31,7 @@ const positions = [
     name: "Hire Me",
     description: "Loyal staff member & experienced!",
     rank: "Looking to be hired, Contact Me!",
-    url: "https://oblivionrust.com"
+    url: "https://discord.gg/Q6ZSW63Fpw"
   }
 ],
   Index = ({ stats, topRepos }: AppProps) => {
