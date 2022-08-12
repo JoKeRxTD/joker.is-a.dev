@@ -34,13 +34,11 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         <meta name="theme-color" content="#000000" />
         <meta
           name="keywords"
-          content="Tom, JoKeR Portfolio, joker, OKane, web developer, github, typescript, nextjs, discord, discordjs"
+          content="Tom, JoKeR Portfolio, joker, web developer, github, typescript, nextjs, discord, discordjs"
         />
         <meta name="description" content="JoKeR Portfolio - Software Engineer" />
         <meta name="author" content="JoKeR Portfolio" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </Head>
-
       <div className="text-black dark:text-white flex flex-row justify-center w-full h-full bg-gradient-to-bl from-white to-[#fff] dark:from-black dark:to-[#0d131f] min-h-screen">
         <Nav />
         <div className="w-[80%] md:w-[45rem]">

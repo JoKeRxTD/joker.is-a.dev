@@ -74,7 +74,7 @@ const LandingButton = ({ name, link, selected }: { name: string; link: string; s
             <ThemeToggle />
             <LandingButton name="Home" link="/" selected={router.pathname === "/"} />
             <LandingButton name="Contact" link="/contact" selected={router.pathname === "/contact"} />
-            <LandingButton name="Discord" link="/discord" selected={router.pathname === "/discord"} />
+            <LandingButton name="Discord" link="https://discord.gg/Q6ZSW63Fpw" selected={false} />
           </div>
 
           <div className="flex flex-row items-center justify-center gap-2 xs:gap-4">

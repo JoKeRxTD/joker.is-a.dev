@@ -112,6 +112,10 @@ const positions = [
             );
           })}
         </div>
+        <section id="get-in-touch" data-aos="fade-up" className="rounded-lg">
+            <span>Want to Hire me or just a General Inquiry, Please get in touch!</span>
+            <a href="mailto:JoKeR@mythbot.org" target="_blank" rel="noreferrer">Contact</a>
+        </section>
       </motion.div>
     );
   };
