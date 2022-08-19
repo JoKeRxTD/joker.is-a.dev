@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import {
-  SiCss3, SiDocker, SiExpress, SiFigma, SiGit, SiHeroku, SiHtml5, SiJavascript, SiMongodb, SiMysql,
-  SiNextdotjs as SiNextJs, SiNodedotjs as SiNodeJs, SiPhp, SiReact, SiTypescript,
+  SiCss3, SiExpress, SiGit, SiHtml5, SiJavascript, SiMongodb, SiMysql,
+  SiNextdotjs as SiNextJs, SiNodedotjs as SiNodeJs, SiReact, SiTypescript,
   SiVisualstudiocode, SiYarn
 } from "react-icons/si";
 
@@ -39,7 +39,7 @@ const partners = [
 positions = [
   {
     name: "SpaceTurtlesRP",
-    description: "We are a FiveM roleplay server with a focus on community building and roleplay.",
+    description: "SpaceTurtlesRP is a FiveM roleplay server with a focus on community building and roleplay.",
     rank: "Moderator",
     url: "https://spaceturtl.es"
   },
@@ -56,7 +56,6 @@ positions = [
     url: "https://discord.gg/Q6ZSW63Fpw"
   }
 ],
-
 
   Index = ({ stats, topRepos }: AppProps) => {
     return (

@@ -2,9 +2,9 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { ReactElement, useState } from "react";
-import { FiMail } from "react-icons/fi";
+// import { FiMail } from "react-icons/fi";
 import { HiMenu, HiX } from "react-icons/hi";
-import { SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
+import { SiGithub, SiTwitter } from "react-icons/si";
 
 import { classNames } from "@util/classNames";
 
