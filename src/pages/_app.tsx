@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         <title>JoKeR Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
+        <meta name="theme-color" content="#36393E" />
         <meta
           name="keywords"
           content="Tom, JoKeR Portfolio, joker, web developer, github, typescript, nextjs, discord, discordjs"

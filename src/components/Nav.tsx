@@ -84,10 +84,7 @@ const LandingButton = ({ name, link, selected }: { name: string; link: string; s
             />
             <LinkButton
               href={"https://twitter.com/jokerxhd"}
-              icon={<SiTwitter className="w-6 h-6 cursor-pointer" />}
-            />
-            <LinkButton href={"mailto:joker@mythbot.org"} 
-            icon={<FiMail className="w-6 h-6 cursor-pointer" />} 
+              icon={<SiTwitter className="w-6 h-6 cursor-pointer hover:text-[#1DA1F2]" />}
             />
           </div>
         </motion.div>
@@ -146,11 +143,7 @@ const LandingButton = ({ name, link, selected }: { name: string; link: string; s
                   />
                   <LinkButton
                     href={"https://twitter.com/jokerxhd"}
-                    icon={<SiTwitter className="w-6 h-6 cursor-pointer" />}
-                  />
-                  <LinkButton
-                    href={"mailto:joker@mythbot.org"}
-                    icon={<FiMail className="w-6 h-6 cursor-pointer" />}
+                    icon={<SiTwitter className="w-6 h-6 cursor-pointer hover:text-[#1DA1F2]" />}
                   />
                 </div>
               </motion.div>

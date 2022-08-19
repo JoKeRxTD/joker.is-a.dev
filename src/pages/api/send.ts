@@ -22,14 +22,14 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     embeds: [
       {
         color: 3108090,
-        title: data.email,
+        title: "Email: " + data.email,
         author: {
-          name: data.name
+          name: "Name: " + data.name
         },
         footer: {
           name: req.headers["x-forwarded-for"] ?? req.socket.remoteAddress ?? "unknown!?"
         },
-        description: data.message
+        description: "Message: " + data.message
       }
     ]
   }).then(response => {
