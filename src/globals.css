@@ -35,7 +35,6 @@ a {
     padding: 20px 40px;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../public/bg-2.png);
     background-position: top right;
     background-size: 400px;
     background-repeat: no-repeat;
@@ -55,6 +54,15 @@ a {
     align-items: center;
     background: linear-gradient(90deg,#0e141d 20%,#0a0f16);
   }
+  .PartnersItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../public/bg-2.png);
+    background-position: top right;
+    background-size: 400px;
+    background-repeat: no-repeat;
+  }
 
   @media screen and (max-width: 768px) {
     #get-in-touch{
@@ -66,7 +74,6 @@ a {
         padding: 20px 40px;
         justify-content: space-between;
         align-items: center;
-        background-image: url(../public/bg-2.png);
         background-position: top right;
         background-size: 400px;
         background-repeat: no-repeat;

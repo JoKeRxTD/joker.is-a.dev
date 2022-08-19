@@ -6,6 +6,7 @@ import {
 } from "react-icons/si";
 
 import PositionItem from "@components/PositionItem";
+import PartnersItem from "@components/PartnersItem";
 import RepoItem from "@components/RepoItem";
 import { TechItem } from "@components/TechItem";
 
@@ -14,7 +15,28 @@ interface AppProps {
   topRepos: Record<any, any>;
 }
 
-const positions = [
+const partners = [
+  {
+    name: "TicketTool",
+    description: "Your #1 Ticketing Platform for your discord server support tickets and helpdesk management.",
+    image: "https://cdn.mythbot.org/img/dev_023par99.png",
+    url: "https://tickettool.xyz"
+  },
+  {
+    name: "Zap-Hosting",
+    description: "You number one EU server hosting provider for your community and more with 99.99% uptime.",
+    url: "https://zap-hosting.com/joker",
+    image: "https://cdn.mythbot.org/img/dev_qjzvxpxj.png"
+  },
+  {
+    name: "Partnership",
+    description: "Would you like to become partners with me? Get in touch with me on discord or via email.",
+    url: "https://discord.gg/Q6ZSW63Fpw",
+    image: "https://cdn.mythbot.org/img/dev_p5ehn3ax.gif"
+  }
+],
+
+positions = [
   {
     name: "SpaceTurtlesRP",
     description: "We are a FiveM roleplay server with a focus on community building and roleplay.",
@@ -34,6 +56,8 @@ const positions = [
     url: "https://discord.gg/Q6ZSW63Fpw"
   }
 ],
+
+
   Index = ({ stats, topRepos }: AppProps) => {
     return (
       <motion.div
@@ -108,6 +132,20 @@ const positions = [
                 description={pos.description}
                 rank={pos.rank}
                 url={pos.url}
+              />
+            );
+          })}
+        </div>
+        <h2 className="font-medium text-3xl mb-4">Current Partnerships 🤝</h2>
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-12 gap-6">
+          {partners.map((pos: Record<string, any>) => {
+            return (
+              <PartnersItem
+                key={pos.name}
+                name={pos.name}
+                description={pos.description}
+                url={pos.url} 
+                image={pos.image}              
               />
             );
           })}
