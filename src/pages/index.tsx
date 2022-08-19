@@ -152,7 +152,7 @@ positions = [
         </div>
         <section id="get-in-touch" data-aos="fade-up" className="rounded-lg bg-white/10 dark:bg-black/10 border border-slate-400 hover:border-slate-700 dark:border-slate-800 dark:hover:border-slate-600 transition-colors duration-75 cursor-pointer">
             <span>Want to Hire me or just a General Inquiry, Please get in touch!</span>
-            <a href="mailto:JoKeR@mythbot.org" target="_blank" rel="noreferrer" className="border border-slate-400 hover:border-slate-700 dark:border-slate-800 dark:hover:border-slate-600">Contact</a>
+            <a href="/contact" rel="noreferrer" className="border border-slate-400 hover:border-slate-700 dark:border-slate-800 dark:hover:border-slate-600">Contact</a>
         </section>
       </motion.div>
     );
