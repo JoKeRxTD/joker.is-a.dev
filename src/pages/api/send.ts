@@ -21,7 +21,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   await axios.post(process.env.WEBHOOK_URL as string, {
     embeds: [
       {
-        color: 3108090,
+        color: 3553598,
         title: "Email: " + data.email,
         author: {
           name: "Name: " + data.name
