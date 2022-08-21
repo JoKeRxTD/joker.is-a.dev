@@ -3,8 +3,14 @@ import { AiOutlineStar } from "react-icons/ai";
 import { BiGitRepoForked } from "react-icons/bi";
 
 const Languages = {
-  TypeScript: "#2b7489",
-  JavaScript: "#f7df1e"
+  JavaScript: "#F1E05A",
+  HTML: "#E34C26",
+  CSS: "#563D7C",
+  Lua: "#000080",
+  Typescript: "#3178C6",
+  Md: "#fafafa",
+  Vue: "#41B883",
+  Ejs: "#A91E50"
 };
 
 interface RepoProps {

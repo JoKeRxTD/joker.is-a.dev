@@ -14,7 +14,7 @@ const Spotify = () => {
       className="fixed left-6 -bottom-20 w-[20rem] h-[7rem] hidden lg:flex flex-col items-start justify-start"
     >
       <h1 className="text-black dark:text-gray-100 font-semibold text-base mb-2 flex items-center justify-center">
-        Listening to Spotify
+        Vibing to Spotify 🎶
         <span className="ml-2 w-2 h-2">
           <span className="absolute w-2 h-2 bg-green-600 rounded-full animate-ping" />
           <span className="absolute w-2 h-2 bg-green-600 rounded-full" />

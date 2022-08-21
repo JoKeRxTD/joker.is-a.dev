@@ -7,6 +7,7 @@ import {
 
 import PositionItem from "@components/PositionItem";
 import PartnersItem from "@components/PartnersItem";
+import ProjectsItem from "@components/PartnersItem";
 import RepoItem from "@components/RepoItem";
 import { TechItem } from "@components/TechItem";
 
@@ -56,6 +57,33 @@ positions = [
     url: "https://discord.gg/Q6ZSW63Fpw"
   }
 ],
+projects = [
+  {
+    name: "Mythbot Radio",
+    description: "Join 1,585,911 Users, Use MythBot Radio, With over 30+ Radio Stations From All Over The World.",
+    image: "https://cdn.mythbot.org/img/dev_xnq0megm.png",
+    url: "https://www.mythbot.org"
+  },
+  {
+    name: "Mythbot",
+    description: "Mythbot is a multi purpose Discord bot that can be used for many different purposes, such as security, support, music, moderation, and more.",
+    image: "https://cdn.mythbot.org/img/dev_xnq0megm.png",
+    url: "https://mb-radio.xyz"
+  },
+  {
+    name: "My Portfolio v2",
+    description: "I love to randomly update or recreate my portfolio with new projects and technologies.",
+    image: "https://cdn.mythbot.org/img/dev_aynfh83n.gif",
+    url: "https://joker.mythbot.org"
+  },
+  {
+    name: "Old Portfolio",
+    description: "I love to randomly update or recreate my portfolio with new projects and technologies, here is my old portfolio.",
+    image: "https://cdn.mythbot.org/img/dev_aynfh83n.gif",
+    url: "https://joker.is-a.dev"
+  }
+],
+
 
   Index = ({ stats, topRepos }: AppProps) => {
     return (
@@ -91,7 +119,6 @@ positions = [
           <TechItem icon={SiMysql} name="MySQL" />
         </div>
 
-        <h2 className="font-medium text-3xl mb-4">Projects 🛠️</h2>
         <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">
           In my free time, I enjoy creating open source projects on{" "}
           <a
@@ -106,6 +133,22 @@ positions = [
           GitHub, and <span className="font-bold text-black dark:text-slate-200">{stats.forks}</span> forks. Below
           are some of my most popular repositories.
         </p>
+
+        <h2 className="font-medium text-3xl mb-4">Current Projects 👨‍💻</h2>
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-12 gap-12">
+          {projects.map((pos: Record<string, any>) => {
+            return (
+              <ProjectsItem
+                key={pos.name}
+                name={pos.name}
+                description={pos.description}
+                url={pos.url} 
+                image={pos.image}              
+              />
+            );
+          })}
+        </div>
+        <h2 className="font-medium text-3xl mb-4">Top Github Repos ⭐</h2>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-12 gap-2">
           {topRepos.map((repo: Record<string, any>) => {
             return (
@@ -120,8 +163,7 @@ positions = [
             );
           })}
         </div>
-
-        <h2 className="font-medium text-3xl mb-4">Current Positions 🏢</h2>
+        <h2 className="font-medium text-3xl mb-4">Current Positions ❤️</h2>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-12 gap-2">
           {positions.map((pos: Record<string, any>) => {
             return (
