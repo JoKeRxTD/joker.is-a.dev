@@ -21,7 +21,7 @@ const ProjectsItem = ({ name, description, image, url }: ProjectProps) => {
         </h1>
         <p className="text-sm text-gray-800/70 dark:text-gray-100/70">{description}</p>
         <div className="mt-auto grid justify-items-center text-gray-700 dark:text-gray-300 text-sm ">
-          {/* <img src={image} width={52} height={52}  className="rounded-full justify-center "/> */}
+          <img src={image} width={52} height={52} alt="project logo" className="rounded-full justify-center "/>
         </div>
       </div>
     </a>

@@ -135,7 +135,7 @@ projects = [
         </p>
 
         <h2 className="font-medium text-3xl mb-4">Current Projects 👨‍💻</h2>
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-12 gap-12">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-8 gap-12 ">
           {projects.map((pos: Record<string, any>) => {
             return (
               <ProjectsItem
