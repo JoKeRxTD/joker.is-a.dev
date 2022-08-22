@@ -38,12 +38,12 @@ const partners = [
 ],
 
 positions = [
-  {
-    name: "SpaceTurtlesRP",
-    description: "SpaceTurtlesRP is a FiveM roleplay server with a focus on community building and roleplay.",
-    rank: "Moderator",
-    url: "https://spaceturtl.es"
-  },
+  // {
+  //   name: "SpaceTurtlesRP",
+  //   description: "SpaceTurtlesRP is a FiveM roleplay server with a focus on community building and roleplay.",
+  //   rank: "Moderator",
+  //   url: "https://spaceturtl.es"
+  // },
   {
     name: "OblivionYT",
     description: "We are a YouTube channel dedicated to the game Oblivion.",
