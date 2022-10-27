@@ -32,7 +32,7 @@ const partners = [
   {
     name: "Partnership",
     description: "Would you like to become partners with me? Get in touch with me on discord or via email.",
-    url: "https://discord.gg/Q6ZSW63Fpw",
+    url: "https://joker.mythbot.org/contact",
     image: "https://cdn.mythbot.org/img/dev_p5ehn3ax.gif"
   }
 ],
@@ -54,7 +54,7 @@ positions = [
     name: "Hire Me",
     description: "Loyal staff member & experienced!",
     rank: "Looking to be hired, Contact Me!",
-    url: "https://discord.gg/Q6ZSW63Fpw"
+    url: "https://joker.mythbot.org/contact"
   }
 ],
 projects = [
@@ -71,13 +71,13 @@ projects = [
     url: "https://mb-radio.xyz"
   },
   {
-    name: "My Portfolio v2",
+    name: "Current Portfolio",
     description: "I love to randomly update or recreate my portfolio with new projects and technologies.",
     image: "https://cdn.mythbot.org/img/dev_aynfh83n.gif",
     url: "https://joker.mythbot.org"
   },
   {
-    name: "Old Portfolio",
+    name: "Previous Portfolio",
     description: "I love to randomly update or recreate my portfolio with new projects and technologies, here is my old portfolio.",
     image: "https://cdn.mythbot.org/img/dev_aynfh83n.gif",
     url: "https://joker.is-a.dev"
