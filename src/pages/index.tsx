@@ -133,36 +133,6 @@ projects = [
           GitHub, and <span className="font-bold text-black dark:text-slate-200">{stats.forks}</span> forks. Below
           are some of my most popular repositories.
         </p>
-
-        <h2 className="font-medium text-3xl mb-4">Current Projects 👨‍💻</h2>
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-8 gap-12 ">
-          {projects.map((pos: Record<string, any>) => {
-            return (
-              <ProjectsItem
-                key={pos.name}
-                name={pos.name}
-                description={pos.description}
-                url={pos.url} 
-                image={pos.image}              
-              />
-            );
-          })}
-        </div>
-        <h2 className="font-medium text-3xl mb-4">Top Github Repos ⭐</h2>
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-12 gap-2">
-          {topRepos.map((repo: Record<string, any>) => {
-            return (
-              <RepoItem
-                key={repo.name}
-                name={repo.name}
-                description={repo.description}
-                stars={repo.stargazers_count}
-                forks={repo.forks_count}
-                language={repo.language}
-              />
-            );
-          })}
-        </div>
         <h2 className="font-medium text-3xl mb-4">Current Positions ❤️</h2>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-12 gap-2">
           {positions.map((pos: Record<string, any>) => {
@@ -195,6 +165,35 @@ projects = [
             <span>Want to Hire me or just a General Inquiry, Please get in touch!</span>
             <a href="/contact" rel="noreferrer" className="border border-slate-400 hover:border-slate-700 dark:border-slate-800 dark:hover:border-slate-600">Contact Me</a>
         </section>
+        <h2 className="font-medium text-3xl mb-4">Current Projects 👨‍💻</h2>
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-8 gap-12 ">
+          {projects.map((pos: Record<string, any>) => {
+            return (
+              <ProjectsItem
+                key={pos.name}
+                name={pos.name}
+                description={pos.description}
+                url={pos.url} 
+                image={pos.image}              
+              />
+            );
+          })}
+        </div>
+        <h2 className="font-medium text-3xl mb-4">Top Github Repos ⭐</h2>
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-12 gap-2">
+          {topRepos.map((repo: Record<string, any>) => {
+            return (
+              <RepoItem
+                key={repo.name}
+                name={repo.name}
+                description={repo.description}
+                stars={repo.stargazers_count}
+                forks={repo.forks_count}
+                language={repo.language}
+              />
+            );
+          })}
+        </div>
       </motion.div>
     );
   };
