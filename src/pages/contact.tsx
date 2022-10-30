@@ -43,9 +43,9 @@ const Talk = () => {
           />
 
           <ContactLink
-            name="joker@jokerdev.xyz"
+            name="contact@jokerdev.xyz"
             icon={<FiMail className="w-6 h-6 text-gray-400" />}
-            link="mailto:joker@jokerdev.xyz"
+            link="mailto:contact@jokerdev.xyz"
             borderColor="hover:border-gray-400/50"
           />
         </div>
