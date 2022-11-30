@@ -45,6 +45,12 @@ positions = [
   //   url: "https://spaceturtl.es"
   // },
   {
+    name: "EqualizerRP",
+    description: "Equalizer roleplay is a FiveM roleplay server with a focus on community building and roleplay.",
+    rank: "CEO - Management",
+    url: "https://www.erpforums.xyz"
+  },
+  {
     name: "OblivionYT",
     description: "We are a YouTube channel dedicated to the game Oblivion.",
     rank: "Chat Moderator",
@@ -59,16 +65,16 @@ positions = [
 ],
 projects = [
   {
-    name: "Mythbot Radio",
+    name: "EqualizerRP",
+    description: "Equalizer roleplay is a FiveM roleplay server with a focus on community building and roleplay.",
+    image: "https://cdn.mythbot.org/img/dev_fxwkrtl8.png",
+    url: "https://www.erpforums.xyz"
+  },
+  {
+    name: "Mythbot Radio[Discontinued]",
     description: "Join 1,585,911 Users, Use MythBot Radio, With over 30+ Radio Stations From All Over The World.",
     image: "https://cdn.mythbot.org/img/dev_xnq0megm.png",
     url: "https://www.mythbot.org"
-  },
-  {
-    name: "Mythbot",
-    description: "Mythbot is a multi purpose Discord bot that can be used for many different purposes, such as security, support, music, moderation, and more.",
-    image: "https://cdn.mythbot.org/img/dev_xnq0megm.png",
-    url: "https://mb-radio.xyz"
   },
   {
     name: "Current Portfolio",
