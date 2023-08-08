@@ -8,13 +8,13 @@ const Languages = {
   CSS: "#563D7C",
   Lua: "#000080",
   Typescript: "#3178C6",
-  Md: "#fafafa",
+  md: "#fafafa",
   Vue: "#41B883",
   Ejs: "#A91E50",
   Python: "#3572A5",
   readme: "#fafafa",
   rd: "#fafafa"
-  
+
 };
 
 interface RepoProps {
