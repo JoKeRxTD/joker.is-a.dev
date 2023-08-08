@@ -50,12 +50,6 @@ positions = [
     rank: "CEO - Management",
     url: "https://www.erpforums.xyz"
   },
-  // {
-  //   name: "OblivionYT",
-  //   description: "We are a YouTube channel dedicated to the game Oblivion.",
-  //   rank: "Chat Moderator",
-  //   url: "https://oblivionrust.com"
-  // },
   {
     name: "Hire Me",
     description: "Loyal staff member & experienced!",
@@ -107,7 +101,7 @@ projects = [
 
         <h2 className="font-medium text-3xl mb-4">Technologies 💻</h2>
         <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">
-        I am Tom (JoKeR#0001) . 30 y/o Inspired Developer/Software Engineer , Verified Discord Bot Developer , and Web Developer 
+        I am Tom (jokerxtd) . 31 y/o Inspired Developer/Software Engineer , Verified Discord Bot Developer , and Web Developer 
         </p>
         <div className="w-full flex flex-wrap flex-row justify-center p-1 border border-slate-800 rounded-md bg-white/10 dark:bg-black/10 mb-12">
           <TechItem icon={SiTypescript} name="TypeScript" />

@@ -29,7 +29,7 @@ const Talk = () => {
 
         <div className="row-start-1 md:row-auto">
           <ContactLink
-            name="JoKeR#0001"
+            name="jokerxtd"
             icon={<SiDiscord className="w-6 h-6 text-[#5865F2]" />}
             link="https://discord.com/users/116730818822537225"
             borderColor="hover:border-[#5865F2]/50"

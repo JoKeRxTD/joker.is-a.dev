@@ -10,7 +10,11 @@ const Languages = {
   Typescript: "#3178C6",
   Md: "#fafafa",
   Vue: "#41B883",
-  Ejs: "#A91E50"
+  Ejs: "#A91E50",
+  Python: "#3572A5",
+  readme: "#fafafa",
+  rd: "#fafafa"
+  
 };
 
 interface RepoProps {
