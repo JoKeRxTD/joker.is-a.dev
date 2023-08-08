@@ -50,12 +50,12 @@ positions = [
     rank: "CEO - Management",
     url: "https://www.erpforums.xyz"
   },
-  {
-    name: "OblivionYT",
-    description: "We are a YouTube channel dedicated to the game Oblivion.",
-    rank: "Chat Moderator",
-    url: "https://oblivionrust.com"
-  },
+  // {
+  //   name: "OblivionYT",
+  //   description: "We are a YouTube channel dedicated to the game Oblivion.",
+  //   rank: "Chat Moderator",
+  //   url: "https://oblivionrust.com"
+  // },
   {
     name: "Hire Me",
     description: "Loyal staff member & experienced!",
