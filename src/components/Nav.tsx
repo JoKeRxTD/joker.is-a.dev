@@ -2,7 +2,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { ReactElement, useState } from "react";
-// import { FiMail } from "react-icons/fi";
 import { HiMenu, HiX } from "react-icons/hi";
 import { SiGithub, SiTwitter } from "react-icons/si";
 
@@ -75,6 +74,7 @@ const LandingButton = ({ name, link, selected }: { name: string; link: string; s
             <LandingButton name="Home" link="/" selected={router.pathname === "/"} />
             <LandingButton name="Contact" link="/contact" selected={router.pathname === "/contact"} />
             <LandingButton name="Discord" link="https://discord.gg/Q6ZSW63Fpw" selected={false} />
+            <LandingButton name="My API" link="/myapi" selected={router.pathname === "/myapi"} selected={false} />
           </div>
 
           <div className="flex flex-row items-center justify-center gap-2 xs:gap-4">

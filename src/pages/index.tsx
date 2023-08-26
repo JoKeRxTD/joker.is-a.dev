@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import {
   SiCss3, SiExpress, SiGit, SiHtml5, SiJavascript, SiMongodb, SiMysql,
   SiNextdotjs as SiNextJs, SiNodedotjs as SiNodeJs, SiReact, SiTypescript,
-  SiVisualstudiocode, SiYarn
+  SiVisualstudiocode, SiYarn, SiLua
 } from "react-icons/si";
 
 import PositionItem from "@components/PositionItem";
@@ -17,12 +17,6 @@ interface AppProps {
 }
 
 const partners = [
-  {
-    name: "TicketTool",
-    description: "Your #1 Ticketing Platform for your discord server support tickets and helpdesk management.",
-    image: "https://cdn.mythbot.org/img/dev_023par99.png",
-    url: "https://tickettool.xyz"
-  },
   {
     name: "Zap-Hosting",
     description: "You number one EU server hosting provider for your community and more with 99.99% uptime.",
@@ -48,13 +42,15 @@ positions = [
     name: "EqualizerRP",
     description: "Equalizer roleplay is a FiveM roleplay server with a focus on community building and roleplay.",
     rank: "CEO - Management",
-    url: "https://www.erpforums.xyz"
+    url: "https://www.erpforums.xyz",
+    image: "https://cdn.mythbot.org/img/dev_fxwkrtl8.png",
   },
   {
     name: "Hire Me",
-    description: "Loyal staff member & experienced!",
+    description: "Looking to hire me for a project? Get in touch with me on discord or via email.",
     rank: "Looking to be hired, Contact Me!",
-    url: "https://jokerdev.xyz/contact"
+    url: "https://jokerdev.xyz/contact",
+    image: "https://cdn.mythbot.org/img/dev_aynfh83n.gif",
   }
 ],
 projects = [
@@ -117,6 +113,7 @@ projects = [
           <TechItem icon={SiGit} name="Git" />
           <TechItem icon={SiMongodb} name="MongoDB" />
           <TechItem icon={SiMysql} name="MySQL" />
+          <TechItem icon={SiLua} name="LUA" />
         </div>
 
         <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">
@@ -143,6 +140,7 @@ projects = [
                 description={pos.description}
                 rank={pos.rank}
                 url={pos.url}
+                image={pos.image}
               />
             );
           })}
@@ -173,8 +171,8 @@ projects = [
                 key={pos.name}
                 name={pos.name}
                 description={pos.description}
-                url={pos.url} 
-                image={pos.image}              
+                url={pos.url}
+                image={pos.image}
               />
             );
           })}
