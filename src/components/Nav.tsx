@@ -74,7 +74,7 @@ const LandingButton = ({ name, link, selected }: { name: string; link: string; s
             <LandingButton name="Home" link="/" selected={router.pathname === "/"} />
             <LandingButton name="Contact" link="/contact" selected={router.pathname === "/contact"} />
             <LandingButton name="Discord" link="https://discord.gg/Q6ZSW63Fpw" selected={false} />
-            <LandingButton name="My API" link="/myapi" selected={router.pathname === "/myapi"} selected={false} />
+            <LandingButton name="My API" link="/myapi" selected={router.pathname === "/myapi"} />
           </div>
 
           <div className="flex flex-row items-center justify-center gap-2 xs:gap-4">
