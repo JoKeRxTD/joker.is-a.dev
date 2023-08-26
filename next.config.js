@@ -12,16 +12,6 @@ module.exports = {
         source: '/twitter',
         destination: 'https://twitter.com/jokerxtd',
         permanent: true
-      },
-      {
-        source: '/discord',
-        destination: 'https://discord.gg/6mXqkFw',
-        permanent: true
-      },
-      {
-        source: '/myapi',
-        destination: 'https://api.jokerxtd.xyz',
-        permanent: true
       }
     ]
   },
