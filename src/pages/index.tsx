@@ -50,6 +50,7 @@ positions = [
     rank: "CEO - Management",
     url: "https://www.erpforums.xyz",
     image: "https://cdn.mythbot.org/img/dev_fxwkrtl8.png",
+
   },
   {
     name: "Hire Me",
@@ -159,14 +160,14 @@ projects = [
                 key={pos.name}
                 name={pos.name}
                 description={pos.description}
-                url={pos.url}
-                image={pos.image}
+                url={pos.url} 
+                image={pos.image}              
               />
             );
           })}
         </div>
-        <section id="get-in-touch" data-aos="fade-up" className="rounded-lg shadow-lg bg-white dark:bg-gray-800 p-8">
-        <span>Want to Hire me or just a General Inquiry, Please get in touch!</span>
+        <section id="get-in-touch" data-aos="fade-up" className="rounded-lg bg-white/10 dark:bg-black/10 border border-slate-400 hover:border-slate-700 dark:border-slate-800 dark:hover:border-slate-600 transition-colors duration-75 cursor-pointer">
+            <span>Want to Hire me or just a General Inquiry, Please get in touch!</span>
             <a href="/contact" rel="noreferrer" className="border border-slate-400 hover:border-slate-700 dark:border-slate-800 dark:hover:border-slate-600">Contact Me</a>
         </section>
         <h2 className="font-medium text-3xl mb-4">Current Projects 👨‍💻</h2>
@@ -198,6 +199,10 @@ projects = [
             );
           })}
         </div>
+        <section id="get-in-touch" data-aos="fade-up" className="rounded-lg bg-white/10 dark:bg-black/10 border border-slate-400 hover:border-slate-700 dark:border-slate-800 dark:hover:border-slate-600 transition-colors duration-75 cursor-pointer">
+            <span>Want to Hire me or just a General Inquiry, Please get in touch!</span>
+            <a href="/contact" rel="noreferrer" className="border border-slate-400 hover:border-slate-700 dark:border-slate-800 dark:hover:border-slate-600">Contact Me</a>
+        </section>
       </motion.div>
     );
   };
