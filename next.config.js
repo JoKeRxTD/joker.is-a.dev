@@ -12,6 +12,11 @@ module.exports = {
         source: '/twitter',
         destination: 'https://twitter.com/jokerxtd',
         permanent: true
+      },
+      {
+        source: '/myapi',
+        destination: 'https://api.jokerdev.xyz',
+        permanent: true
       }
     ]
   },
