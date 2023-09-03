@@ -12,8 +12,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   const data = req.body as Data;
 
   if (!data) return res.status(500).json({ result: "Nice try :)" });
-  // no spam pls
-  if (req.headers["x-forwarded-for"] === " ") return res.status(500).json({ result: "Nice try :)" });
 
   if (data.message.length < 1 || data.email.length < 1 || data.name.length < 1) return res.status(500).json({ result: "FIELD_EMPTY" });
   if (data.message.length > 1000) return res.status(500).json({ result: "MESSAGE_TOO_LONG" });
